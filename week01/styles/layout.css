@@ -26,6 +26,9 @@ header{
     grid-area: header;
     background-color: cornflowerblue;
     color: azure;
+}
+
+.header-content{
     padding: 1rem;
 }
 
@@ -58,14 +61,14 @@ nav a:hover{
 /* Main content styles */
 main{
     grid-area: main;
-    padding: 2rem;
+    padding: 1rem;
     background: #fff;
 }
 
 /* Aside content styles */
 aside{
     grid-area: aside;
-    padding: 2rem;
+    padding: 1rem;
     background: rgb(81, 118, 187);
 }
 

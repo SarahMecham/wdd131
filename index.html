@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta name="discription" content="WDD 131 Dynamic Web Fundamentals - Sarah Mecha - Home Page">
+    <meta name="author" content="Sarah Mecham">
+    <title>WDD 131 - Dynamic Web Fundamentals - Sarah Mecham</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <h1>WDD 131 - Mecham</h1>
+    <header>
+        <div>
+            <h1 class="header-content">
+                <span id="course-title">WDD 131 &ndash; Dynamic Web Fundamentals</span>
+            </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/sarah-d-mecham/">Linkedin</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/5?lang=eng&id=p24#p26">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="about-section">
+                <p>
+                    My name is Sarah. I live Utah, with my husband and 4 of our 5 children. My oldest is in college studying computer engineering. My youger four are in 11th grade, 10th grade, 7th grade, and 4th grade. I am an avid runner and have completed three marathons, many half-marathons, and two triathlons. I love seeing how much my body can do and I love anything outside! Other activities I enjoy are skiing, snowboarding, mountain biking, hiking, and paddleboarding. I spend most of my "free time" right now coaching and volunteering with our high school mountain bike team.
+                </p>
+                <img src="images/profile.jpg" alt="Portrait of Sarah Mecham" class="profile-img">
+            </div>
+            
+            <h3>Utah, United States of America</h3>
+            <div class="utah-section">
+                <img src="images/american-flag.jpg" alt="Flag of the United States" class="flag-img">
+                <p>
+                    Utah was the 45th state admitted to the United States. It was named for the Ute tribe that lives in the region. In 1847 members of the Church of Jesus Christ of Latter-day Saints began settling in the Salt Lake and surrounding area. Today Utah is best known for its abundant outdoor recreation. From the Wasatch Mountains in the north to the desert landscape and red rocks of the south. Visitors and residents can enjoy the breathtaking views and rich environment in a variety of ways.
+                </p>
+            </div>
+        </section>
+        
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <div class="resource-card">
+                <ul>
+                    <li><a href="#">Dev.to Community</a></li>
+                    <li><a href="#">Smashing Magazine</a></li>
+                    <li><a href="#">CSS Tricks</a></li>
+                    <li><a href="#">W3 Schools</a></li>
+                    <li><a href="#">Udemy</a></li>
+                    <li><a href="#">Image Placeholder</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> | Sarah Mecham | Utah
+        </p>
+        <p id="lastModified"></p>
+    </footer>  
 </body>
 </html>

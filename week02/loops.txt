@@ -1,0 +1,39 @@
+ <!--<h1>For Loop</h1>
+        <script>
+            const Days = 6;
+            const LIMIT = 30;
+            let studentReport = [11, 42, 33, 64, 29, 37, 44];
+
+            for (let i = 0; i < studentReport.length; i++) {
+                if (studentReport[i] < LIMIT) {
+                    console.log(studentReport[i]);
+                }
+            }
+        </script>
+        <h1>While Loop</h1>
+        <script>
+            let i = 0;
+
+            while (i < studentReport.length) {
+                if (studentReport[i] < LIMIT) {
+                    console.log(studentReport[i]);
+                }
+                i++;
+            }
+        </script>
+        <h1>forEach</h1>
+        <script>
+            studentReport.forEach(function (item) {
+                if (item < LIMIT) {
+                    console.log(item);
+                }
+            });
+        </script>
+        <h1>For...in Loop</h1>
+        <script>
+            for (let i in studentReport) {
+                if (studentReport[i] < LIMIT) {
+                    console.log(studentReport[i]);
+                }
+            }
+        </script>-->

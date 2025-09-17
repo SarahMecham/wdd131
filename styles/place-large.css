@@ -1,0 +1,25 @@
+@media (min-width: 1000px) {
+    .hero .data {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .hero .weather {
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .hero .weather img {
+        display: none;
+    }
+
+    .hero .weather h2::after {
+        content: "🌤️";
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+}

@@ -116,3 +116,54 @@ footer {
     color: rgb(44, 65, 105);
 }
 
+@media (min-width: 740px) {
+	header {
+		display: flex;
+		align-items: center;
+	}
+
+    header h1 {
+        margin-right: 20px;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav-menu {
+        display: block;
+        position: static;
+        background: none;
+        padding: 0;
+    }
+
+	.nav-menu ul {
+        display: flex;
+		justify-content: space-evenly;
+		flex-direction: row;
+        margin: 0;
+        padding: 0;
+	}
+
+	.nav-menu a {
+	    color: #fff;
+	    padding: 1rem;
+	    text-decoration: none;
+	    font-size: larger;
+        border-radius: 6px;
+	}
+
+    .nav-menu a:hover {
+        background: rgba(255,255,255,0.2);
+    }
+    
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 950px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

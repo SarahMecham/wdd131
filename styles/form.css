@@ -1,0 +1,93 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    background-color: #FAF7F2;
+    margin: 20px;
+}
+
+header {
+    margin: 10px;
+    padding: .5rem 2%;
+    background-color: #1B2A41;
+    border: 5px solid #A7BFA4;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #faab3d;
+    font-size: larger;
+}
+
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf1 legend {
+    color: #144793;
+    padding: 0 .5rem;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: #1B2A41;
+    font-size: .9rem;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 select {
+    background-color: #eee;
+    display: block;
+    border: solid 1px gray;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #383838;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.wf1 input[type="radio"],
+.wf1 input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.wf1 textarea {
+    width: 100%;
+    max-width: 400px;    
+    height: 100px;
+}
+
+.wf1 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#faab3d, #7d4901);
+    color: #eee;
+    font-size: larger;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+footer {
+    padding: 3px;
+    background-color: #1B2A41;
+    color: #eee;
+    text-align: center;
+    border: 2.5px solid #A7BFA4;
+    border-radius: 6px;
+}

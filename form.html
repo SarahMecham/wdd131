@@ -10,7 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/form.css">
+
+    <link rel="preload" href="styles/form.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles/form.css"></noscript>
+
     <script src="scripts/form.js" defer></script>
 
 </head>

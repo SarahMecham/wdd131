@@ -26,14 +26,14 @@
     <main>
         <form method="get" action="review.html" class="wf1">
             <fieldset>
-                <label>Product Name</label>
+                <legend>Product Name</legend>
                     <select name="product" id="product" required>
                         <option value="" disabled selected>Select a Product...&#9662;</option>
                     </select>
             </fieldset>
 
             <fieldset>
-                <label>Overall Rating</label>
+                <legend>Overall Rating</legend>
                 <label><input type="radio"  name="rating" value="1" required>⭐</label>
                 <label><input type="radio"  name="rating" value="2">⭐⭐</label>
                 <label><input type="radio"  name="rating" value="3">⭐⭐⭐</label>
@@ -42,25 +42,25 @@
             </fieldset>
 
             <fieldset>
-                <label>Date of Installation</label>
+                <legend>Date of Installation</legend>
                 <input type="date" id="installDate" name="installDate" required>
             </fieldset>
 
             <fieldset>
-                <label>Which features did you find useful in the product?</label>
-                <div class="checkbox"><input type="checkbox" name="features[]" id="durability" value="durability">Durability</div>
-                <div class="checkbox"><input type="checkbox" name="features[]" id="use" value="use">Ease of Use</div>
-                <div class="checkbox"><input type="checkbox" name="features[]" id="performance" value="performance">Performance</div>
-                <div class="checkbox"><input type="checkbox" name="features[]" id="design" value="design">Design</div>
+                <legend>Which features did you find useful in the product?</legend>
+                <label><input type="checkbox" name="features[]" id="durability" value="durability">Durability</label>
+                <label><input type="checkbox" name="features[]" id="use" value="use">Ease of Use</label>
+                <label><input type="checkbox" name="features[]" id="performance" value="performance">Performance</label>
+                <label><input type="checkbox" name="features[]" id="design" value="design">Design</label>
             </fieldset>
 
             <fieldset>
-                <label>Written Review (Optional)</label>
+                <legend>Written Review (Optional)</legend>
                 <textarea name="review" id="review"></textarea>
             </fieldset>
 
             <fieldset>
-                <label>Your Name (Optional)</label>
+                <legend>Your Name (Optional)</legend>
                 <input type="text" id="userName" name="userName">
             </fieldset>
 

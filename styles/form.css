@@ -3,7 +3,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
     color: #333;
     background-color: #FAF7F2;
     margin: 20px;
@@ -16,7 +16,7 @@ header {
     border: 5px solid #A7BFA4;
     border-radius: 6px;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #faab3d;
     font-size: larger;
 }

@@ -36,17 +36,24 @@ main {
     padding: .5rem 2%;
 }
 
-.wf1 legend {
+.wf1 label {
     color: #144793;
     padding: 0 .5rem;
 }
 
-.wf1 label {
-    display: block;
-    padding-top: 1rem;
+.wf1 .checkbox-label {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 0.5rem; 
     color: #1B2A41;
-    font-size: .9rem;
+    font-size: 0.9rem;
 }
+
+.wf1 input[type="checkbox"] {
+    margin-right: 0.5rem; 
+    margin-top: 0;
+}
+
 
 .wf1 input[type="text"],
 .wf1 input[type="date"],

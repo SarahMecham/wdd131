@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="W06 Project - MTB Website">
+    <meta name="author" content="Sarah Mecham">
+    <title>WDD 131 - W06 Project - MTB Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="styles/mtb.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles/mtb.css"></noscript>
+
+    <script src="scripts/mtb.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Highline Trails MTB</h1>
+        </div>
+        <button class = "menu-toggle" aria-label="toggle menu">
+            &#9776;
+        </button>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="mtb.html" class = "active">Home</a></li>
+                <li><a href="mtb-information.html">Trails</a></li>
+                <li><a href="mtb-gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Gallery</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="images/powder-mountain.jpg" alt="powder-mountain" loading="lazy" width="400" height="600">
+                    <figcaption>Powder Mountain</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/price-utah.jpg" alt="price" loading="lazy" width="400" height="600">
+                    <figcaption>Price</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/soldier-hollow.jpg" alt="soldier-hollow" loading="lazy" width="400" height="600"> 
+                    <figcaption>Soldier Hollow</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/butterfield.jpg" alt="butterfield" loading="lazy" width="400" height="600">
+                    <figcaption>Butterfield</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/richfield.jpg" alt="richfield" loading="lazy" width="400" height="600"> 
+                    <figcaption>Richfield</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/eagle-mountain.jpg" alt="eagle-mountain" loading="lazy" width="400" height="600">
+                    <figcaption>Eagle Mountain</figcaption> 
+                </figure>
+                <figure>
+                    <img src="images/beaver-mountain.jpg" alt="beaver-mountain" loading="lazy" width="400" height="600">
+                    <figcaption>Beaver Mountain</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/vernal.jpg" alt="vernal" loading="lazy" width="400" height="600">
+                    <figcaption>Vernal</figcaption> 
+                </figure>
+                <figure>
+                    <img src="images/mantua.jpg" alt="mantua" loading="lazy" width="400" height="600">
+                    <figcaption>Mantua</figcaption>
+                </figure>
+            </div> 
+    </main>
+
+     <footer>
+        <p>
+            &copy; <span id="currentyear"></span> ♥️ Sarah Mecham ♥️ Utah
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

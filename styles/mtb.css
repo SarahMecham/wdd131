@@ -286,6 +286,7 @@ figcaption {
 
 /* Form styling */
 .newsletter-form {
+    min-height: 450px;
     padding: 10px;
     background: var(--background);
     border: 2px solid var(--border-color);
@@ -296,6 +297,8 @@ figcaption {
 }
 
 .newsletter-form h3 {
+    line-height: 1.4;
+    min-height: 3rem;
     margin-bottom: 15px;
     padding: 1rem;
     background-color: var(--primary-color);
@@ -306,6 +309,7 @@ figcaption {
 
 .newsletter-form legend {
     display: block;
+    min-height: 2rem;
     margin-top: 10px;
     padding: 10px;
     font-weight: bold;
@@ -314,6 +318,7 @@ figcaption {
 
 .newsletter-form label{
     display: block;
+    min-height: 2.5rem;
     margin-top: 10px;
     padding: 10px;
     font-weight: bold;
@@ -348,6 +353,13 @@ figcaption {
 .newsletter-form input[type="submit"]:hover {
     background: var(--text-light);
     color: var(--primary-color);
+}
+
+.thank-you {
+  display: none; 
+  text-align: center;
+  padding: 20px;
+  min-height: 200px; 
 }
 
 footer {

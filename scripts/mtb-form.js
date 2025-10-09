@@ -1,8 +1,7 @@
-const newsletterForm = document.getElementById("newsletter-form");
+document.getElementById("signup-form").addEventListener("submit", function(e) {
+  e.preventDefault();
 
-if (newsletterForm) {
-  newsletterForm.addEventListener("submit", function (event) {
-    event.preventDefault();
-    this.innerHTML = "<h3>Thank you for subscribing! 🎉</h3>";
-  });
-}
+  this.style.display = "none";
+
+  document.querySelector(".thank-you").style.display = "block";
+});

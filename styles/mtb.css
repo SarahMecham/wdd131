@@ -55,7 +55,6 @@ h2 {
 
 .nav-menu {
     opacity: 0;
-    pointer-events: none;
     transition: opacity 0.3s ease;
     position: absolute;
     top: 70px;
@@ -92,7 +91,6 @@ h2 {
 .nav-menu.show {
     display: block;
     opacity: 1;
-    pointer-events: auto;
 }
 
 .active {

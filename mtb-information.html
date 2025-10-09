@@ -60,28 +60,58 @@
                     <form>
                         <fieldset>
                             <legend>Contact Information</legend>
-                            <label>First Name*<input type="text" name="fname" required></label>
-                            <label>Last Name*<input type="text" name="lname" required></label>
-                            <label>Email*<input type="text" name="email" required></label>
+
+                            <label for="fname">First Name*</label>
+                            <input type="text" id="fname" name="fname" required>
+
+                            <label for="lname">Last Name*</label>
+                            <input type="text" id="lname" name="lname" required>
+
+                            <label for="email">Email*</label>
+                            <input type="text" id="email" name="email" required>
                         </fieldset>
 
                         <fieldset>
                             <legend>Skill Level</legend>
-                            <label><input type="radio" name="audience" value="advanced">Advanced</label>
-                            <label><input type="radio" name="audience" value="intermediate">Intermediate</label>
-                            <label><input type="radio" name="audience" value="beginner">Beginner</label>
+
+                            <label for="advanced">
+                                <input type="radio" id="advanced" name="audience" value="advanced">Advanced
+                            </label>
+                            <label for="intermediate">
+                                <input type="radio" id="intermediate" name="audience" value="intermediate">Intermediate
+                            </label>
+                            <label for="beginner">
+                                <input type="radio" id="beginner" name="audience" value="beginner">Beginner
+                            </label>
                         </fieldset>
 
                         <fieldset>
                             <legend>Trail Interest</legend>
-                            <label><input type="checkbox" name="loops" value="yes">Loops</label>
-                            <label><input type="checkbox" name="Point-to-Point" value="yes">Point-to-Point</label>
-                            <label><input type="checkbox" name="shuttle" value="yes">Shuttle</label>
-                            <label><input type="checkbox" name="race-courses" value="yes">Race Courses</label>
-                            <label><input type="checkbox" name="rock-gardens" value="yes">Rock Gardens</label>
-                            <label><input type="checkbox" name="technical jumps" value="yes">Technical Jumps</label>
-                            <label><input type="checkbox" name="flowing trails" value="yes">Flowing Trails</label>
-                            <label><input type="checkbox" name="scenic-views" value="yes">Scenic Views</label>
+
+                            <label for="loops">
+                                <input type="checkbox" id="loops" name="loops" value="yes">Loops
+                            </label>
+                            <label for="point-to-point">
+                                <input type="checkbox" id="point-to-point" name="point-to-point" value="yes">Point-to-Point
+                            </label>
+                            <label for="shuttle">
+                                <input type="checkbox" id="shuttle" name="shuttle" value="yes">Shuttle
+                            </label>
+                            <label for="race-course">
+                                <input type="checkbox" id="race-course" name="race-courses" value="yes">Race Courses
+                            </label>
+                            <label for="rock-gardens">
+                                <input type="checkbox" id="rock-gardens" name="rock-gardens" value="yes">Rock Gardens
+                            </label>
+                            <label for="technical-jumps">
+                                <input type="checkbox" id="technical-jumps" name="technical-jumps" value="yes">Technical Jumps
+                            </label>
+                            <label for="flowing-trails">
+                                <input type="checkbox" id="flowing-trails" name="flowing-trails" value="yes">Flowing Trails
+                            </label>
+                            <label for="scenic-views">
+                                <input type="checkbox" id="scenic-views" name="scenic-views" value="yes">Scenic Views
+                            </label>
                         </fieldset>
 
                         <input type="submit" value="Sign Me Up!">

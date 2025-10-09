@@ -22,7 +22,11 @@ body {
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     color: var(--text-light);
-    
+}
+
+h2 {
+    margin-top: 10px;
+    color: var(--primary-color);
 }
 
 .header {
@@ -140,6 +144,10 @@ h2 {
 }
 
 /*Gallery page styling*/
+.about p {
+    margin: 10px;
+    color: var(--primary-color);
+}
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
@@ -268,7 +276,11 @@ figcaption {
 
 .newsletter-form h3 {
     margin-bottom: 15px;
+    padding: 1rem;
+    background-color: var(--primary-color);
     color: var(--text-light);
+    text-align: center;
+    border-radius: 5px;
 }
 
 .newsletter-form legend {
@@ -372,14 +384,6 @@ footer {
         background: var(--background);
     }
 
-    .sub-nav-menu {
-        display: flex;
-    }
-
-    .sub-menu-toggle {
-        display: none; 
-    }
-
     .hero .weather {
         position: absolute;
         top: 5rem;
@@ -428,30 +432,34 @@ footer {
         margin-top: 20px;
     }
 
-    .sub-nav-menu {
-        display: flex;
-        justify-content: space-between; /* spreads items evenly */
-        flex-wrap: wrap;
-        gap: 1rem;
-        margin-top: 1rem;
+    .sub-menu-toggle {
+        display: none;
     }
 
-    .sub-menu-toggle {
-        display: none; 
-    }
-    .sub-nav-menu {
+   .sub-nav-menu {
         display: flex;
-        justify-content: center; 
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
         margin: 1rem 0 2rem 0;
-        background-color: var(--primary-color);
+        background-color: var(--background);
         padding: 0.5rem 1rem;
+        border: 2px solid var(--border-color);
         border-radius: 8px;
+    }
+
+    .sub-nav-menu.show {
+        flex-direction: row;   
+        background: none;      
+        padding: 0;
+        margin: 0;
     }
 
     .sub-nav-menu ul {
         display: flex;
+        flex-direction: row;
         flex: 1;
-        justify-content: space-around; /* evenly distribute items */
+        justify-content: space-around;
         gap: 1rem;
         list-style: none;
         padding: 0;
@@ -460,7 +468,7 @@ footer {
 
     .sub-nav-menu a {
         text-decoration: none;
-        color: var(--text-light);
+        color: var(--primary-color);
         font-weight: bold;
         padding: 0.5rem 1rem;
         border-radius: 6px;

@@ -1,4 +1,3 @@
-// -------------------- Weather Section --------------------
 const tempEl = document.getElementById("temp");
 const conditionsEl = document.getElementById("conditions");
 const windEl = document.getElementById("wind");
@@ -21,10 +20,8 @@ if (tempEl && conditionsEl && windEl && windChillEl) {
     );
   }
 
-  let windChillDisplay =
+  windChillEl.textContent =
     temp <= 50 && wind > 3
       ? `${Math.round(calculateWindChill(temp, wind))} ℉`
       : "N/A";
-
-  windChillEl.textContent = windChillDisplay;
 }

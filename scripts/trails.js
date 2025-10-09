@@ -1,3 +1,15 @@
+// ----------------- Sub-menu section -------------------
+
+const subMenuToggle = document.querySelector(".sub-menu-toggle");
+const subNavMenu = document.querySelector(".sub-nav-menu");
+
+if (subMenuToggle && subNavMenu) {
+  subMenuToggle.addEventListener("click", () => {
+    subNavMenu.classList.toggle("show");
+    subMenuToggle.textContent = subNavMenu.classList.contains("show") ? "❌" : "☰";
+  });
+}
+
 // -------------------- Trails Section --------------------
 const heading = document.querySelector("main h2");
 const trailContainer = document.querySelector(".trail-maps");

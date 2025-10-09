@@ -364,9 +364,9 @@ figcaption {
     font-size: 1rem;
 }
 
-.newsletter-form input[type="radio"], .newsletter-form input[type="checkbox"] {
-    margin-right: 6px;
-    
+.newsletter-form input[type="radio"], 
+.newsletter-form input[type="checkbox"] {
+    margin-right: 6px; 
 }
 
 .newsletter-form input[type="submit"] {

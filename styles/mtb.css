@@ -285,9 +285,12 @@ figcaption {
     color: var(--text-dark);
 }
 
-/* Form styling */
+/* --- Form styling --- */
 .newsletter-form {
-    min-height: 450px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     padding: 10px;
     background: var(--background);
     border: 2px solid var(--border-color);
@@ -295,6 +298,33 @@ figcaption {
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     color: var(--primary-color);
     max-height: max-content;
+}
+
+.form-content, .thank-you {
+  width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.form-content {
+  opacity: 1;
+}
+
+.form-content.hidden {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute; /* keep it from taking space */
+}
+
+.thank-you {
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.thank-you.show {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .newsletter-form h3 {
@@ -354,13 +384,6 @@ figcaption {
 .newsletter-form input[type="submit"]:hover {
     background: var(--text-light);
     color: var(--primary-color);
-}
-
-.thank-you {
-  display: none; 
-  text-align: center;
-  padding: 20px;
-  min-height: 200px; 
 }
 
 footer {

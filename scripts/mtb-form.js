@@ -1,7 +1,6 @@
-document.getElementById("signup-form").addEventListener("submit", function(e) {
+document.querySelector("#newsletter-form form").addEventListener("submit", function(e) {
   e.preventDefault();
 
   this.style.display = "none";
-
-  document.querySelector(".thank-you").style.display = "block";
+  document.querySelector("#newsletter-form .thank-you").style.display = "block";
 });

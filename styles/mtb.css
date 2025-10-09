@@ -13,14 +13,14 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: var(--text-dark);
     background-color: var(--background);
     margin: 20px;
 }
 
 h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     color: var(--text-light);
 }
 
@@ -34,7 +34,7 @@ h2 {
     background-color: var(--primary-color);
     border: 5px solid var(--border-color);
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     color: var(--text-light);
     font-size: larger;
 }

@@ -246,8 +246,8 @@ figcaption {
 
 .sub-nav-menu a:hover {
 	text-decoration: underline;
-	background-color: var(--background);
-	color: var(--text-dark);
+	/*background-color: var(--background);*/
+	/*color: var(--text-dark);*/
     border-radius: 5px;
 }
 

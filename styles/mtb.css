@@ -1,3 +1,4 @@
+/* --- Base styling for all three pages --- */
 *{
     margin: 0;
     padding: 0;
@@ -86,8 +87,6 @@ h2 {
 
 .nav-menu a:hover {
 	text-decoration: underline;
-	/*background-color: var(--background);*/
-	/*color: var(--text-dark);*/
 }
 
 .nav-menu.show {
@@ -99,6 +98,8 @@ h2 {
 .active {
 	color: var(--border-color);
 }
+
+/* --- Home page styling --- */
 
 .hero {
     position: relative;
@@ -246,8 +247,6 @@ figcaption {
 
 .sub-nav-menu a:hover {
 	text-decoration: underline;
-	/*background-color: var(--background);*/
-	/*color: var(--text-dark);*/
     border-radius: 5px;
 }
 
@@ -401,6 +400,8 @@ footer {
     color: var(--text-light);
     text-align: center;
 }
+
+/* --- Large screen styling --- */
 
 @media (min-width: 740px) {
 	.header {

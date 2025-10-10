@@ -197,9 +197,3 @@ if (trailContainer) {
 
 const form = document.getElementById("newsletter-form");
 
-if (form) {
-  form.addEventListener("submit", function(event) {
-    event.preventDefault();
-    this.innerHTML = "<h3>Thank you for subscribing! 🎉</h3>";
-  });
-}

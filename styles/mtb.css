@@ -309,28 +309,30 @@ figcaption {
 .form-content, .thank-you {
   width: 100%;
   transition: opacity 0.3s ease;
+  position: relative;
 }
 
 .form-content {
   opacity: 1;
+  display: block;
 }
 
 .form-content.hidden {
   opacity: 0;
-  pointer-events: none;
-  position: absolute; 
+  display: none;
 }
 
 .thank-you {
   opacity: 0;
-  pointer-events: none;
+  display: none;
   text-align: center;
   padding: 20px;
+  min-height: 200px;
 }
 
 .thank-you.show {
   opacity: 1;
-  pointer-events: auto;
+  display: block;
 }
 
 .newsletter-form h3 {

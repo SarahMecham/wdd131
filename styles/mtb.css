@@ -86,7 +86,7 @@ h2 {
 
 .nav-menu a:hover {
 	text-decoration: underline;
-	background-color: var(--background);
+	background-color: var(--text-light);
 	color: var(--text-dark);
 }
 
